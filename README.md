@@ -101,7 +101,6 @@ YouTube-Object-Detection-Dataset-Collector is a Python-based graphical applicati
     Pillow
     numpy
     onnxruntime
-    # Add other potential low-level dependencies if needed, but these cover the main ones.
     ```
 
     Install the libraries using pip:
