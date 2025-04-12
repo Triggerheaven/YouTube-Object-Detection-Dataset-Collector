@@ -1,0 +1,8 @@
+# requirements.txt
+customtkinter
+opencv-python
+yt-dlp
+ultralytics
+Pillow
+numpy
+onnxruntime
