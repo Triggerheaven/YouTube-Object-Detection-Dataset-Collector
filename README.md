@@ -2,6 +2,20 @@
 Automated GUI tool to collect images and annotations from YouTube videos using YOLO/ONNX for creating object detection datasets.
 **Discord:** @xthemast
 
+---
+
+## ⚠️ Current Status & Disclaimer
+
+**Please Note:** While this tool functions as intended for its core purpose and can already be used effectively to generate useful datasets, it is still under development.
+
+*   **Not Fully Polished:** There might be rough edges or areas for improvement in the user interface or workflow.
+*   **Potential Bugs:** You might encounter minor bugs or unexpected behavior in certain edge cases. Please report them if you find any!
+*   **Core Functionality Works:** The main pipeline – searching, downloading, extracting, detecting, cropping, and saving – is operational.
+
+Despite these points, the application is capable of producing good quality datasets for object detection tasks. Feedback and bug reports are welcome!
+
+---
+
 ## Description
 
 YouTube-Object-Detection-Dataset-Collector is a Python-based graphical application designed to automate the process of collecting images of specific objects (primarily configured for 'person' class, treated as 'enemy') from YouTube gameplay videos. It searches YouTube, downloads relevant videos, extracts frames, uses YOLO (v5/v8/v9) or ONNX models for object detection, crops the detected objects to a fixed size with padding, and saves the cropped images along with their corresponding annotation labels in various formats (darknet, Pascal VOC, COCO). This tool is useful for building custom datasets for training object detection models.
